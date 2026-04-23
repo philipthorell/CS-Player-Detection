@@ -1,0 +1,8 @@
+.vscode
+.idea
+.env
+.venv
+data
+.pt
+.pth
+runs
