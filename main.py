@@ -25,7 +25,7 @@ import cv2  # noqa: E402
 import numpy as np  # noqa: E402
 from ultralytics import YOLO  # noqa: E402
 
-MODEL_PATH = "runs/detect/models/csgo-yolov5-2/weights/best.pt"
+MODEL_PATH = "models/best_yolov5.pt"
 MODEL_CONFIDENCE = 0.6
 OUTPUT_MONITOR = "DP-1"
 MONITOR_SIZE = (1920, 1080)
