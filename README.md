@@ -13,7 +13,7 @@ Linux Wayland overlay that draws bounding boxes on top of the running game.
 | ![Detecting a T spotted near a sign](previews/image1.png) | ![Detecting a player at distance](previews/image2.png) |
 | ![Two enemies tagged on Dust 2](previews/image3.png) | ![Detection through a doorway](previews/image4.png) |
 
-![Preview video](previews/video.mp4)
+![Preview video](previews/video.gif)
 
 The green boxes are drawn live by the overlay as the model runs inference on
 each captured frame.
