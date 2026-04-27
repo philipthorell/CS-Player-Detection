@@ -35,7 +35,7 @@ The model in `models/best_yolov5.pt` was trained on two Roboflow datasets:
 - **[CS2 Object Detection](https://app.roboflow.com/jagers-workspace/cs2-object-detection-6lnb5/overview)** &mdash; classes `CT`, `T`
 - **[CSGO Train YOLOv5](https://app.roboflow.com/jagers-workspace/csgo-train-yolo-v5-u8bfj/overview)** &mdash; classes `CT`, `T`, `person`
 
-The full training pipeline is reproducible from `detection.ipynb`.
+The full training pipeline is reproducible from `detection.ipynb`. Just make sure to create a `.env` file and put your Roboflow api key in there like this `ROBOFLOW_API_KEY=your_api_key`
 
 `segmentation.ipynb` is just a notebook where i tested object segmentation
 which I thought I would leave in. It colored the whole player model instead
